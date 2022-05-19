@@ -1,0 +1,35 @@
+{
+  "name": "projet_blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@next-auth/mongodb-adapter": "^1.0.3",
+    "axios": "^0.26.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.1.8",
+    "next": "^12.0.10",
+    "next-auth": "^4.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "validator": "^13.7.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.19"
+  }
+}
